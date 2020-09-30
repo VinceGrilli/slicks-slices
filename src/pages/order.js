@@ -1,11 +1,10 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 
 export default function OrderPage() {
   return (
-    <div>
-      <Nav />
+    <Layout>
       <p>Hey Im the f'n Order page</p>
-    </div>
+    </Layout>
   );
 }
